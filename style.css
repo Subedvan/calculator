@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg,#99627A,#2A2F4F);
+}
+.calculator{
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 18px;
+    background: transparent;
+}
+button{
+    padding: 20px;
+    border-radius: 30cm;
+    margin: 6px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(3, 7, 7, 0.5)
+    
+}
+input{
+    padding: 20px;
+    border: none;
+    width: 240px;
+    cursor: text;
+    background-color: transparent;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 100;
+    
+    
+}
+.sp{
+    background-color: #F2BE22;
+}
+.sp-1{
+    
+    margin: 16px;
+
+}
+.sp-2{
+    padding-left: 15px;
+    color: #F2BE22;
+
+}
